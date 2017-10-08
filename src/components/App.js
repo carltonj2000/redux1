@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Counter from './Counter';
+import Counters from './Counters';
 
 class App extends Component {
   render() {
@@ -8,7 +8,7 @@ class App extends Component {
         <header className="App-header">
           <h1>Welcome to React</h1>
         </header>
-        <Counter />
+        <Counters />
       </div>
     );
   }

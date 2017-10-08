@@ -3,13 +3,6 @@ import { connect } from 'react-redux';
 import { incrementCounter, decrementCounter } from '../actions';
 
 class Counter extends Component {
-  // state = {
-  //   count: 7,
-  // };
-
-  // increment = () => this.setState(state => ({...state, count: state.count + 1}));
-  // decrement = () => this.setState(state => ({...state, count: state.count - 1}));
-
   render() {
     return (
       <div className="Counter">
