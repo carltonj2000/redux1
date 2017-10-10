@@ -12,6 +12,7 @@ class Counters extends Component {
   render() {
     return (
       <span className="Counters">
+        <button onClick={this.props.add}>Add Counter</button>
         {this.props.counters.counters.map((counter, index) =>
           <div key={index}>
           <span>{index}</span>&nbsp;
@@ -23,7 +24,6 @@ class Counters extends Component {
         <button onClick={() => this.props.remove(index)}>Remove Counter</button>
         </div>
         )}
-        <button onClick={this.props.add}>Add Counter</button>
       </span>
     );
   }
